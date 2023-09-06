@@ -12,7 +12,8 @@ import { Tab1Component } from './components/tab1/tab1.component';
 import { Tab2Component } from './components/tab2/tab2.component';
 import { Tab3Component } from './components/tab3/tab3.component';
 import { Tab4Component } from './components/tab4/tab4.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +31,8 @@ import { HttpClientModule } from '@angular/common/http'
     // FontColorDirective,
     // ItalicsFontDirective
     MouseHoverDirective,
-    HttpClientModule
+    HttpClientModule,
+    DragDropModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

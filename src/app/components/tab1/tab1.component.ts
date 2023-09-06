@@ -2,7 +2,6 @@ import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
 import { ApiService } from 'src/app/api.service';
 
-
 @Component({
   selector: 'app-tab1',
   templateUrl: './tab1.component.html',

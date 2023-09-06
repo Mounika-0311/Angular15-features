@@ -13,19 +13,19 @@ export class StandaloneAPIsComponent {
   }
 
   tab1() {
-    // this.showTab = 1;
+    this.showTab = 1;
     this.router.navigate(['/tab1'])
   }
   tab2() {
-    // this.showTab = 2;
+    this.showTab = 2;
     this.router.navigate(['/tab2'])
   }
   tab3() {
-    // this.showTab = 3;
+    this.showTab = 3;
     this.router.navigate(['/tab3'])
   }
   tab4() {
-    // this.showTab = 4;
+    this.showTab = 4;
     this.router.navigate(['/tab4'])
   }
 }
