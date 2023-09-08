@@ -14,12 +14,15 @@ import { Tab3Component } from './components/tab3/tab3.component';
 import { Tab4Component } from './components/tab4/tab4.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import {MatListModule} from '@angular/material/list';
+import {MatSliderModule} from '@angular/material/slider';
+import {CdkListboxModule} from '@angular/cdk/listbox'
 @NgModule({
   declarations: [
     AppComponent,
     StandaloneAPIsComponent,
     // Tab1Component,
-    Tab2Component,
+    // Tab2Component,
     Tab3Component,
     Tab4Component,
     
@@ -33,6 +36,9 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     MouseHoverDirective,
     HttpClientModule,
     DragDropModule,
+    MatListModule,
+    MatSliderModule,
+    CdkListboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
